@@ -1,0 +1,8 @@
+streamlit
+easyocr
+numpy
+pillow
+pandas
+opencv-python-headless
+deep-translator
+beautifulsoup4
