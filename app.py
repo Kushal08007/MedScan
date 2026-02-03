@@ -31,7 +31,7 @@ st.markdown("""
         #121522 
     );
     background-size: 600% 600%;
-    animation: deepOcean 15s ease-in-out infinite;
+    animation: deepOcean 2s ease-in-out infinite;
 }
 
 @keyframes deepOcean {
@@ -390,4 +390,5 @@ NIH.gov, CDC.gov, https://www.1mg.com and W.H.O<br>
 Educational use only • Consume medicine only if Prescribed
 </div>
 """, unsafe_allow_html=True)
+
 
