@@ -5,4 +5,5 @@ pillow
 pandas
 opencv-python-headless
 deep-translator
-beautifulsoup4
+torch
+torchvision
