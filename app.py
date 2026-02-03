@@ -9,6 +9,17 @@ import base64
 from deep_translator import GoogleTranslator 
 import streamlit.components.v1 as components 
 
+
+#PWA STYLE CODE
+st.markdown("""
+<link rel="manifest" href="/
+manifest.json">
+<link rel="apple-touch-icon" href="/applogo.png">
+ <meta name="theme-color"
+  content="#0B0B0B">          
+            """, unsafe_allow_html=True)
+
+#BACKGROUND ANIMATION
 st.markdown("""
 <style>
 .stApp {
@@ -379,3 +390,4 @@ NIH.gov, CDC.gov, https://www.1mg.com and W.H.O<br>
 Educational use only • Consume medicine only if Prescribed
 </div>
 """, unsafe_allow_html=True)
+
