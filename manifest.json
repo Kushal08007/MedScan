@@ -1,0 +1,15 @@
+{
+    "name": "MedScan",
+    "short_name":  "MedScan",
+    "start_url":  "/",
+    "display":  "standalone",
+    "background_color":  "#0B0B0B",
+    "theme_color":  "#0B0B0B",
+    "icons": [
+      {
+        "src": "/applogo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+}
