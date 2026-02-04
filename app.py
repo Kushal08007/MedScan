@@ -269,8 +269,7 @@ if st.session_state.ocr_text:
         )
     else:
         med_name = st.text_input(
-            "Could not detect automatically. Please enter medicine name.
-             Please enter the medicine name without mg.",
+            "Could not detect automatically. Please enter medicine name. Please enter the medicine name without mg.",
             placeholder="Example: Dolo / DOLO / dolo"
         )
 
@@ -391,6 +390,7 @@ NIH.gov, CDC.gov, https://www.1mg.com and W.H.O<br>
 Educational use only • Consume medicine only if Prescribed
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
